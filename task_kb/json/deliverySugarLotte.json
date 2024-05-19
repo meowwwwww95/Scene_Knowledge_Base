@@ -1,0 +1,23 @@
+{
+    "name": "送餐加糖的拿铁咖啡",
+    "goal": "获取咖啡师制作完成的加糖的拿铁咖啡，并将其送到客人所处位置",
+    "role": "server",
+    "resource": ["coffeeLotte[Sugar]"],
+    "actions": [
+        {
+            "id": 1,
+            "name": "move",
+            "parameters":["(-2.6,0,0.8)", "(-2.6,0,2.2)"] 
+        },
+        {
+            "id": 2,
+            "name": "put",
+            "parameters":["Bar_stool_1", "coffeeLotte[Sugar]"] 
+        },
+        {
+            "id": 3,
+            "name": "chat",
+            "parameters":["10"] 
+        }
+    ]
+}
