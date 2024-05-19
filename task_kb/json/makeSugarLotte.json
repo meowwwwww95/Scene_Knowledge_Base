@@ -1,0 +1,103 @@
+{
+    "name": "制作加糖的拿铁咖啡",
+    "goal": "制作一杯加糖的拿铁咖啡",
+    "role": "baristas",
+    "resource": ["cup", "milk", "sugar", "groundCoffee", "Coffee_maker_set"],
+    "actions": [
+        {
+            "id": 1,
+            "name": "move",
+            "parameters":["(1,0,-3)", "(1,0,-4)"] 
+        },
+        {
+            "id": 2,
+            "name": "get",
+            "parameters":["Shelves", "milk"] 
+        },
+        {
+            "id": 3,
+            "name": "move",
+            "parameters":["(-1.5,0,-3)", "(1.5,0.0,-4)"] 
+        },
+        {
+            "id": 4,
+            "name": "get",
+            "parameters":["Coffee_Beans_jar", "coffeeBean"] 
+        },
+        {
+            "id": 5,
+            "name": "move",
+            "parameters":["(-1.6,0,-3)", "(1.6,0.0,-4)"] 
+        },
+        {
+            "id": 6,
+            "name": "get",
+            "parameters":["Cup_Rack", "cup"] 
+        },
+        {
+            "id": 7,
+            "name": "move",
+            "parameters":["(-0.35,0,-3)", "(-0.35,0,-4)"] 
+        },
+        {
+            "id": 8,
+            "name": "put",
+            "parameters":["Coffee_grinder", "coffeeBean"] 
+        },
+        {
+            "id": 9,
+            "name": "operate",
+            "parameters":["Coffee_grinder"] 
+        },
+        {
+            "id": 10,
+            "name": "observe",
+            "parameters":["Coffee_grinder"] 
+        },
+        {
+            "id": 11,
+            "name": "get",
+            "parameters":["Coffee_grinder", "groundCoffee"] 
+        },
+        {
+            "id": 12,
+            "name": "move",
+            "parameters":["(0.4,0,-3)", "(0.4,0,-4)"] 
+        },
+        {
+            "id": 13,
+            "name": "put",
+            "parameters":["Coffee_maker_set", "groundCoffee"] 
+        },
+        {
+            "id": 14,
+            "name": "put",
+            "parameters":["Coffee_maker_set", "cup"] 
+        },
+        {
+            "id": 15,
+            "name": "put",
+            "parameters":["Coffee_maker_set", "milk"] 
+        },
+        {
+            "id": 16,
+            "name": "operate",
+            "parameters":["Coffee_maker_set", "coffeeLotte"] 
+        },
+        {
+            "id": 17,
+            "name": "get",
+            "parameters":["Coffee_maker_set", "coffeeLotte"] 
+        },
+        {
+            "id": 18,
+            "name": "move",
+            "parameters":["(-1.1,0,-2.6)", "(-1.1,0,-1.6)"] 
+        },
+        {
+            "id": 19,
+            "name": "operate",
+            "parameters":["Sugar_jar", "sugar", "coffeeLotte"] 
+        }
+    ]
+}

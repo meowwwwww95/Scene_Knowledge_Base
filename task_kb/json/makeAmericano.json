@@ -1,0 +1,78 @@
+{
+    "name": "制作美式咖啡",
+    "goal": "制作一杯美式咖啡",
+    "role": "baristas",
+    "resource": ["cup", "groundCoffee", "Coffee_maker_set"],
+    "actions": [
+        {
+            "id": 1,
+            "name": "move",
+            "parameters":["(-1.5,0,-3)", "(1.5,0.0,-4)"] 
+        },
+        {
+            "id": 2,
+            "name": "get",
+            "parameters":["Coffee_Beans_jar", "coffeeBean"] 
+        },
+        {
+            "id": 3,
+            "name": "move",
+            "parameters":["(-1.6,0,-3)", "(1.6,0.0,-4)"] 
+        },
+        {
+            "id": 4,
+            "name": "get",
+            "parameters":["Cup_Rack", "cup"] 
+        },
+        {
+            "id": 5,
+            "name": "move",
+            "parameters":["(-0.35,0,-3)", "(-0.35,0,-4)"] 
+        },
+        {
+            "id": 6,
+            "name": "put",
+            "parameters":["Coffee_grinder", "coffeeBean"] 
+        },
+        {
+            "id": 7,
+            "name": "operate",
+            "parameters":["Coffee_grinder"] 
+        },
+        {
+            "id": 8,
+            "name": "observe",
+            "parameters":["Coffee_grinder"] 
+        },
+        {
+            "id": 9,
+            "name": "get",
+            "parameters":["Coffee_grinder", "groundCoffee"] 
+        },
+        {
+            "id": 10,
+            "name": "move",
+            "parameters":["(0.4,0,-3)", "(0.4,0,-4)"] 
+        },
+        {
+            "id": 11,
+            "name": "put",
+            "parameters":["Coffee_maker_set", "groundCoffee"] 
+        },
+        {
+            "id": 12,
+            "name": "put",
+            "parameters":["Coffee_maker_set", "cup"] 
+        },
+        {
+            "id": 13,
+            "name": "operate",
+            "parameters":["Coffee_maker_set", "coffeeAmericano"] 
+        },
+        {
+            "id": 14,
+            "name": "get",
+            "parameters":["Coffee_maker_set", "coffeeAmericano"] 
+        }
+    ]
+}

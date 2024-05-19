@@ -1,0 +1,33 @@
+{
+    "name": "清理桌子",
+    "goal": "从桌子上收拾脏杯子，并到水池台旁进行清洗",
+    "role": "server",
+    "resource": ["cup[dirty]"],
+    "actions": [
+        {
+            "id": 1,
+            "name": "get",
+            "parameters":["Bar_stool_1", "cup[dirty]"] 
+        },
+        {
+            "id": 2,
+            "name": "move",
+            "parameters":["(-2,0,-3)", "(-2,0,-4)"] 
+        },
+        {
+            "id": 3,
+            "name": "put",
+            "parameters":["Wash_basin_cabinet_set", "cup[dirty]"] 
+        },
+        {
+            "id": 4,
+            "name": "operate",
+            "parameters":["Wash_basin_cabinet_set"] 
+        },
+        {
+            "id": 5,
+            "name": "get",
+            "parameters":["Wash_basin_cabinet_set", "cup"] 
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+行为名称： move
+行为概述： 移动到指定位置后转向指定朝向
+行为参数： [string targetPosition, string targetRotation]
+参数解释： targetPostion: 目标位置；targetRotation: 到达目标位置后的朝向
+
+行为名称： chat
+行为概述： 与目标智能体进行交流
+行为参数： [string targetAgent, string message]
+参数解释： targetAgent: 目标智能体；message: 交流信息
+
+行为名称： get
+行为概述： 从目标可交互实体处获取物理实体
+行为参数： [string targetObject, string targetThing]
+参数解释： targetObject: 目标可交互实体名称；targetThing: 期望得到的物理实体
+
+行为名称： put
+行为概述： 将物理实体放置到目标可交互实体处
+行为参数： [string targetObject, string targetThing]
+参数解释： targetObject: 目标可交互实体名称；targetThing: 期望放置的物理实体
+
+行为名称： operate
+行为概述： 操作目标可交互实体
+行为参数： [string targetObject]
+参数解释： targetObject: 目标可交互实体名称
+
+行为名称： observe
+行为概述： 观察目标可交互实体状态
+行为参数： [string targetObject]
+参数解释： targetObject: 目标可交互实体名称
